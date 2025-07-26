@@ -42,9 +42,9 @@ import ffmpeg
 # Initialize the bot
 bot = Client(
     "bot",
-    api_id=API_ID,
-    api_hash=API_HASH,
-    bot_token=BOT_TOKEN
+    api_id=16541842
+    api_hash=612e11382c43476e2b7a1fb7b0d6f488
+    bot_token=7626695536:AAEsU5wKUwOAixJTR2kFAD2SJQyn0qUjlII
 )
 
 processing_request = False
@@ -526,14 +526,13 @@ async def start(bot, m: Message):
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("🕸️ Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/nikhilsainiop/saini-txt-direct")],
-        ])
-        
+            [InlineKeyboardButton(text="📞 Contact", url=http://t.me/Owner_2025?user_id={7709360451}"), InlineKeyboardButton(text="🛠️ Repo", url=http://t.me/Owner_2025"")],])
+    
         await start_message.edit_text(
             f"🌟 Welcome {m.from_user.first_name}! 🌟\n\n" +
             f"Great! You are a premium member!\n"
             f"Use button : **✨ Commands** to get started 🌟\n\n"
-            f"If you face any problem contact -  [{CREDIT}⁬](tg://openmessage?user_id={OWNER})\n", disable_web_page_preview=True, reply_markup=keyboard
+            f"If you face any problem contact -  [{CREDIT}⁬](http://t.me/Owner_2025?user_id={7709360451})\n", disable_web_page_preview=True, reply_markup=keyboard
         )
     else:
         await asyncio.sleep(2)
@@ -555,7 +554,7 @@ async def back_to_main_menu(client, callback_query):
     keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("✨ Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/nikhilsainiop/saini-txt-direct")],
+            [InlineKeyboardButton(text="📞 Contact", http://t.me/Owner_2025), InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/nikhilsainiop/saini-txt-direct")],
         ])
     
     await callback_query.message.edit_media(
@@ -611,7 +610,7 @@ async def help_button(client, callback_query):
         f"• Send any link for auto-extraction\n"  
         f"• Supports batch processing\n\n"  
         f"╭────────⊰◆⊱────────╮\n"   
-        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : {CREDIT} 💻\n"
+        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : {WIZARD BOTZ} 💻\n"
         f"╰────────⊰◆⊱────────╯\n"
   )
     
@@ -656,7 +655,7 @@ async def upgrade_button(client, callback_query):
   first_name = callback_query.from_user.first_name
   keyboard = InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Back to Main Menu", callback_data="back_to_main_menu")]])
   caption = (
-           f" 🎉 Welcome [{first_name}](tg://user?id={user_id}) to DRM Bot! 🎉\n\n"
+           f" 🎉 Welcome WIZARD BOTZ [{first_name}](tg://user?id={user_id}) to DRM Bot! 🎉\n\n"
            f"You can have access to download all Non-DRM+AES Encrypted URLs 🔐 including\n\n"
            f"<blockquote>• 📚 Appx Zip+Encrypted Url\n"
            f"• 🎓 Classplus DRM+ NDRM\n"
