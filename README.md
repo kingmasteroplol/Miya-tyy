@@ -1,9 +1,9 @@
 <h1 align="center">
-  ✨ SAINI DRM Bot ✨
+  ✨ WIZARD BOTZ DRM NEW BOT✨
 </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Welcome+to+DRM+Bot+by+@nikhil.saini.khe" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Welcome+to+DRM+Bot+by+@Owner_2025.khe" alt="Typing SVG" />
 </p>
 
 ---
@@ -46,8 +46,8 @@
 
 ## 🤖 Bot Usernames
 
-- [@saini_contact_bot](https://t.me/saini_contact_bot)
-- [@saini_file_store_bot](https://t.me/saini_file_store_bot)
+- [@saini_contact_bot](client)
+- [http://t.me/Owner_2025](http://t.me/Owner_2025)
 
 ---
 
